@@ -16,4 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('king', 'TestController@index');
+Route::get('wang', 'TestController@index');
 
