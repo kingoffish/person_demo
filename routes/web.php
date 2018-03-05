@@ -18,3 +18,4 @@ Route::get('/', function () {
 Route::get('king', 'TestController@index');
 Route::get('wang', 'TestController@index');
 Route::get('xiao', 'TestController@index');
+Route::get('ning', 'TestController@index');
