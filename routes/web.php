@@ -15,8 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('king', 'TestController@index');
-Route::get('wang', 'TestController@index');
-Route::get('xiao', 'TestController@index');
-Route::get('ning', 'TestController@index');
-Route::get('666', 'TestController@index');
+Route::get('redis', 'TestController@redis');
+Route::get('usedatabase', 'TestController@usedatabase');
+

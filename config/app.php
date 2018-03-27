@@ -138,6 +138,8 @@ return [
 
     'providers' => [
 
+        #正式服不需要这块
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */
